@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "antfu.vite",
+
+        "antfu.unocss",
+        "csstools.postcss",
+        "voorjaar.windicss-intellisense",
+
+        "dbaeumer.vscode-eslint",
+        "Vue.volar",
+        "lokalise.i18n-ally",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "HaaLeo.vscode-stylint"
+    ]
+}

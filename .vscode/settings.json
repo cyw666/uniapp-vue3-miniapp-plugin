@@ -1,0 +1,85 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "**/package.json": "json",
+        "**/*.json": "jsonc",
+        "**/*.css": "postcss"
+    },
+
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/dist": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/coverage": true,
+        "**/out/**": true,
+        "**/pnpm-store": true,
+        "**/pnpm-lock.yaml": true,
+        "**/package-lock.json": true,
+        "**/yarn.lock": true,
+        "**/tmp": true,
+        "**/.rush": true
+    },
+
+    "cSpell.words": [
+        "anatine",
+        "Attributify",
+        "automator",
+        "bytenode",
+        "dcloudio",
+        "demi",
+        "iconify",
+        "intlify",
+        "kuaishou",
+        "Microservice",
+        "microservices",
+        "nestjs",
+        "NVUE",
+        "outfile",
+        "pinia",
+        "pnpm",
+        "postuninstall",
+        "quser",
+        "QYWORK",
+        "rushx",
+        "susceptor",
+        "tarojs",
+        "toutiao",
+        "unocss",
+        "unplugin",
+        "vetur",
+        "Vite",
+        "vitejs",
+        "Vitesse",
+        "vitest",
+        "vueuse",
+        "weapp",
+        "weixin",
+        "WXWORK",
+        "xstate"
+    ],
+    "i18n-ally.sourceLanguage": "en",
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.localesPaths": "locales",
+    "i18n-ally.sortKeys": true,
+    "prettier.enable": true,
+    "unocss.root": ".",
+
+    // https://github.com/tailwindlabs/tailwindcss/discussions/5258#discussioncomment-1979394
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore"
+}

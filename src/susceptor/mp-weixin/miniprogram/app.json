@@ -1,0 +1,16 @@
+{
+    "pages": ["pages/aaa/aaa", "pages/bbb/bbb"],
+    "subPackages": [],
+    "usingComponents": {},
+    "plugins": {
+        "my-plugin": {
+            "version": "dev",
+            "provider": "wx1e4bb64320ad552f"
+        }
+    },
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}

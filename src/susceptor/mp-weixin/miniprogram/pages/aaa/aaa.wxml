@@ -1,0 +1,4 @@
+<view class="hello-page">
+    <view>xxx</view>
+    <button bindtap="goplugin">进入插件页面</button>
+</view>

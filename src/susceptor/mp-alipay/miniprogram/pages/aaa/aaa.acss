@@ -1,0 +1,21 @@
+.page-aaa {
+  padding: 0 36rpx;
+}
+
+.page-item {
+  margin-top: 32rpx;
+}
+
+.page-item .field {
+  margin: 8px 0 4px;
+}
+
+.page-item .field input {
+  width: -webkit-fill-available;
+  padding: 16rpx;
+  border: 1px solid gainsboro;
+}
+
+.page-item .field input:focus {
+  border-color: cyan;
+}

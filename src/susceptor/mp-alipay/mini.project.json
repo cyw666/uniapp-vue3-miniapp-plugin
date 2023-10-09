@@ -1,0 +1,10 @@
+{
+	"miniprogramRoot": "miniprogram",
+	"pluginRoot": "plugin",
+	"enableParallelLoader": true,
+	"enableDistFileMinify": true,
+	"component2": true,
+	"enableAppxNg": true,
+	"enableNodeModuleBabelTransform": true,
+	"compileType": "plugin"
+}

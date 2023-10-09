@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/aaa/aaa",
+        "pages/bbb/bbb"
+    ],
+    "subPackages": [],
+    "usingComponents": {},
+    "plugins": {
+        "my-plugin": {
+            "version": "dev",
+            "provider": "{{currentPluginId}}"
+        }
+    }
+}

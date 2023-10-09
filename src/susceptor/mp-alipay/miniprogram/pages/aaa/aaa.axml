@@ -1,0 +1,3 @@
+<view class="page-aaa">
+  <view class="demo" onTap="goplugin">前往插件页面</view>
+</view>
