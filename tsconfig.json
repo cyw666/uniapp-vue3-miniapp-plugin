@@ -1,35 +1,60 @@
 {
     "compilerOptions": {
-        "target": "esnext",
-        "useDefineForClassFields": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "strict": true,
-        "jsx": "preserve",
-        "sourceMap": true,
-        "resolveJsonModule": true,
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "lib": ["esnext", "dom"],
-        "types": [
-            "vue/ref-macros",
-            "@dcloudio/types",
-            "vite/client",
-            "@mini-types/alipay",
-            "@types/weixin-app",
-            "mini-types"
-        ],
+        "sourceMap": false,
+        "baseUrl": ".",
         "paths": {
-            "@/*": ["./src/*"],
-        }
+            "@/*": [
+                "./src/*"
+            ],
+            "#/*": [
+                "./types/*"
+            ]
+        },
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [
+            "@dcloudio/types",
+            "@uni-helper/uni-app-types",
+            "@uni-helper/uni-cloud-types",
+            "@uni-helper/uni-ui-types"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "useDefineForClassFields": true,
+        // Required in Vue projects
+        "jsx": "preserve",
+        // `"noImplicitThis": true` is part of `strict`
+        // Added again here in case some users decide to disable `strict`.
+        // This enables stricter inference for data properties on `this`.
+        "noImplicitThis": true,
+        "strict": true,
+        // Required in Vite
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "target": "ESNext",
+        // Recommended
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        // See <https://github.com/vuejs/vue-cli/pull/5688>
+        "skipLibCheck": true,
+    },
+    "vueCompilerOptions": {
+        "nativeTags": [
+            "block",
+            "component",
+            "template",
+            "slot"
+        ]
     },
     "include": [
-        "@types",
+        "types/*.d.ts",
         "src/**/*.ts",
         "src/**/*.d.ts",
         "src/**/*.tsx",
         "src/**/*.vue",
-        "vite.config.ts"
-, "unocss.config.ts"    ]
+        "unocss.config.ts"
+    ]
 }
